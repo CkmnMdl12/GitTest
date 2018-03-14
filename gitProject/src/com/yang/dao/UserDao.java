@@ -1,9 +1,18 @@
 package com.yang.dao;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import com.yang.entiy.User;
+
 public class UserDao {
 
-	public static void main(String[] args) {
-		System.out.println("UserDao");
+	List<User> list = null;
+	
+	public UserDao() {
+		list = new ArrayList<>();
+		list.add(new User("홍길동",17,75,3));
+		list.add(new User("이순신",18,100,0));
+		list.add(new User("강호동",15,90,3));
 	}
-
 }
