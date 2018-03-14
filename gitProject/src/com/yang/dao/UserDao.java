@@ -1,9 +1,9 @@
 package com.yang.dao;
 
-public class User {
+public class UserDao {
 
 	public static void main(String[] args) {
-		System.out.println("User");
+		System.out.println("UserDao");
 	}
 
 }
