@@ -15,4 +15,8 @@ public class UserDao {
 		list.add(new User("이순신",18,100.0));
 		list.add(new User("강호동",15,90.3));
 	}
+	public List<User> getUserList() {
+		return list;
+		
+	}
 }
